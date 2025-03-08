@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:todo_list/razorpay_payment.dart';
+import 'package:todo_list/pages/home_page.dart';
 
 void main() async{
 
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RazorpayPayment(),
+      home: const HomePage(),
     );
   }
 }
